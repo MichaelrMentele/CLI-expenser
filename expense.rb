@@ -1,5 +1,6 @@
 #! /usr/bin/env ruby
-
 require "pg"
+require "io/console"
+require "./models"
 
-puts "hello world"
+CLI.new.run(ARGV)
